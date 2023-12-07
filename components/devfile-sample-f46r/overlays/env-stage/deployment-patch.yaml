@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-f46r
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/sbudhwar-1-tenant/devfile-sample-2/devfile-sample-f46r@sha256:0d1e47c37e4732167355aebd5f818fff267c2e9a36ae4baf0da5005a70482753
+        name: container-image
+        resources: {}
+status: {}
