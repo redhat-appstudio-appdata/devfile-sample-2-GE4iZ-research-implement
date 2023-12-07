@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-code-with-quarkus-dzbn
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/sbudhwar-1-tenant/devfile-sample-2/devfile-sample-code-with-quarkus-dzbn@sha256:9a10b6bafd11d59a6de9ab53a85f2cfe3170db2bc1b872eb9c13d6217be48f90
+        name: container-image
+        resources: {}
+status: {}
